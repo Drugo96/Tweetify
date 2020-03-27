@@ -1,0 +1,305 @@
+.username{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.user-avatar{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #ffffff;
+}
+
+.header{
+    #background-color: #282828;
+    background-color: transparent;
+    height: 60px;
+    -webkit-transition: all ease-out .5s;
+  -moz-transition: all ease-out .5s;
+  -o-transition: all ease-out .5s;
+  transition: all ease-out .5s;
+}
+
+.header-container{
+    position: sticky;
+    top: -250px;
+    z-index: 2000;
+}
+
+.active{
+    background-color: rgba(0,0,0,0.6) !important;
+}
+
+.search-container{
+    height: 390px;
+    background-color: transparent;
+    position: sticky;
+    top: -190px;
+    padding-bottom: 4px;
+}
+
+.second-wrap{
+    width: 620px;
+}
+
+.third-wrap{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cerca{
+    height: 49px !important;
+}
+
+.logo{
+    height: 40px;
+}
+
+.bow{
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    background: radial-gradient(ellipse at bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%);
+    color: #ffffff;
+}
+
+.bows-container{
+    max-width: 790px;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+ }
+
+.bows-container::-webkit-scrollbar {
+  display: none;
+}
+
+.results-container{
+    max-width: 790px;
+}
+
+.result-container{
+
+}
+
+
+/* Categories portfolio (3-rd section of the Main page) */
+.htlfndr-categories-portfolio {
+	background: #ffffff url('../img/background-world-map.png') no-repeat;
+	background-size: cover;
+	padding-top: 20px;
+    padding-bottom: 30px;
+}
+.htlfndr-categories-portfolio .container {
+	margin-top: 9.3rem;
+}
+.htlfndr-category-box {
+	background: #23def7;
+	background: #3085a3;
+	height: auto;
+	margin-bottom: 30px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.htlfndr-category-box img {
+	display: block;
+	height: auto;
+	position: relative;
+	transition: opacity 1s, transform 1s;
+	-webkit-transition: opacity 1s, -webkit-transform 1s;
+	width: 100%;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.htlfndr-category-box .subcategory-name {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    -webkit-transition-delay: .15s;
+    transition-delay: .15s;
+}
+
+.htlfndr-category-box:hover .category-description {
+    background-color: rgba(63,163,232,0.75);
+}
+
+.htlfndr-category-box .category-description {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	height: 100%;
+	padding-right: 2rem;
+	padding-left: 2rem;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	-webkit-transition: background-color 1s ease 0s;
+	-moz-transition: background-color 1s ease 0s;
+	-o-transition: background-color 1s ease 0s;
+	transition: background-color 1s ease 0s;
+}
+.htlfndr-category-box .subcategory-name{
+	color: #fff;
+	display: block;
+	font-weight: 400;
+	text-shadow: 0 3px 1.5px rgba(0, 0, 0, 0.27);
+	transform: translate3d(-360px, 0, 0);
+	-webkit-transform: translate3d(-360px, 0, 0);
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+}
+
+.htlfndr-category-box .subcategory-name{
+	transition-delay: 0s;
+	-webkit-transition-delay: 0s;
+}
+
+.htlfndr-category-box:hover {
+	-webkit-user-select: none;
+	-webkit-touch-callout: none;
+}
+.htlfndr-category-box:hover img {
+	transform: scale3d(1.1, 1.1, 1);
+	-webkit-transform: scale3d(1.1, 1.1, 1);
+}
+
+.htlfndr-category-box:hover .subcategory-name{
+	opacity: 1;
+	transform: translate3d(0, 0, 0);
+	-webkit-transform: translate3d(0, 0, 0);
+}
+.htlfndr-category-box:hover .htlfndr-category-permalink {
+	display: block;
+}
+
+
+/* Section with visitors cards (4-th section of the Main page) */
+.htlfndr-visitor-column {
+	margin-bottom: 30px;
+}
+.htlfndr-visitors-cards {
+	background-color: #f6f6f6;
+	padding-top: 20px;
+    padding-bottom: 30px;
+}
+.htlfndr-visitors-cards .container {
+	margin-top: 8.2rem;
+}
+.htlfndr-visitor-card {
+	background-color: #fff;
+	border: 1px solid #e4e4e4;
+	border-radius: 4px;
+	padding: 6.775067751%;
+	box-shadow: 7px 10px 13px rgba(0,0,0,0.1);
+	min-height: 100%;
+}
+.htlfndr-visitor-card .visitor-avatar-side,
+.htlfndr-visitor-card .visitor-info-side {
+	display: table-cell;
+}
+.htlfndr-visitor-card .visitor-avatar-side {
+	vertical-align: top;
+	width: 21.260162602%;
+}
+.htlfndr-visitor-card .visitor-avatar {
+	background-color: #D7D7D7;
+	border-radius: 4px;
+	height: auto;
+	overflow: hidden;
+	width: 100%;
+}
+.htlfndr-visitor-card .visitor-avatar img {
+	height: auto;
+	width: 100%;
+}
+.htlfndr-visitor-card .visitor-info-side {
+	padding-left: 6%;
+}
+.htlfndr-visitor-card .visitor-user-name {
+	margin-bottom: 2px;
+	margin-top: 0;
+}
+.htlfndr-visitor-card .visitor-user-firm {
+	color: #A2A2A2;
+	font: 12px 'Roboto';
+	margin-bottom: 13px;
+	margin-top: 0;
+}
+.htlfndr-visitor-card .visitor-user-text {
+	color: #5E5E5E;
+	font-family: 'Roboto Light', sans-serif;
+	margin-bottom: 0;
+	overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+/*tooltip Box*/
+.con-tooltip {
+  transition: all 0.3s ease-in-out;
+}
+
+/*tooltip */
+.tooltip {
+  visibility: hidden;
+  z-index: 2001;
+
+  width: 250px;
+  padding: 20px 20px;
+
+  background: #333;
+  color: #fff;
+
+  position: absolute;
+  bottom:85px;
+
+  border-radius: 9px;
+
+  transform: translateY(9px);
+  transition: all 0.3s ease-in-out;
+
+  box-shadow: 0 0 3px rgba(56, 54, 54, 0.86);
+}
+
+
+/* tooltip  after*/
+.tooltip::after {
+  content: " ";
+  width: 0;
+  height: 0;
+
+  border-style: solid;
+  border-width: 12px 12.5px 0 12.5px;
+  border-color: #333 transparent transparent transparent;
+
+  position: absolute;
+	bottom: -12px;
+  left: 40%;
+
+
+}
+
+.con-tooltip:hover .tooltip{
+  visibility: visible;
+  transform: translateY(-10px);
+  opacity: 1;
+    transition: .3s linear;
+  animation: odsoky 1s ease-in-out infinite  alternate;
+
+}
+@keyframes odsoky {
+  0%{
+    transform: translateY(6px);
+  }
+
+  100%{
+    transform: translateY(1px);
+  }
+
+}
+
+
+.top:hover {transform: translateY(-6px);  }
+
